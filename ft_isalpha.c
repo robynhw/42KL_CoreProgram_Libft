@@ -7,7 +7,7 @@
 /*   Reproduce the behavior of the function isalpha  +#+#+#+#+#+   +#+          */
 /*     (man isalpha).                                     #+#    #+#            */
 /*                                                       ###   ########.fr      */
-/                                                                               */
+/*                                                                              */
 /* **************************************************************************** */
 
 // isalpha() checks whether a character is an alphabet (a to z and A-Z) or not.
