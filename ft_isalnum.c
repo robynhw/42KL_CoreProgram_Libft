@@ -7,7 +7,7 @@
 /*   Reproduce the behavior of the function isalnum  +#+#+#+#+#+   +#+          */
 /*     (man isalnum).                                     #+#    #+#            */
 /*                                                       ###   ########.fr      */
-/                                                                               */
+/*                                                                              */
 /* **************************************************************************** */
 
 // isalnum() checks whether the argument passed is an alphanumeric character
