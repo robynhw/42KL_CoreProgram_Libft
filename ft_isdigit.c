@@ -7,7 +7,7 @@
 /*   Reproduce the behavior of the function isdigit  +#+#+#+#+#+   +#+          */
 /*     (man isdigit).                                     #+#    #+#            */
 /*                                                       ###   ########.fr      */
-/                                                                               */
+/*                                                                              */
 /* **************************************************************************** */
 
 // ft_isdigit() is a function used to check whether the input
