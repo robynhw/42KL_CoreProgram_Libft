@@ -1,19 +1,23 @@
 /* ****************************************************************************** */
 /*                                                                                */
-/*   libft: ft_strncpy                                        :::      ::::::::   */
+/*   libft: ft_strncmp                                        :::      ::::::::   */
 /*                                                          :+:      :+:    :+:   */
 /*   Instructions:                                        +:+ +:+         +:+     */
 /*                                                      +#+  +:+       +#+        */
-/*   Reproduce the behavior of the function strncpy   +#+#+#+#+#+   +#+           */
-/*     (man strncpy).                                      #+#    #+#             */
+/*   Reproduce the behavior of the function strncmp   +#+#+#+#+#+   +#+           */
+/*     (man strncmp).                                      #+#    #+#             */
 /*                                                        ###   ########.fr       */
 /*                                                                                */
 /* ****************************************************************************** */
 
-// strncpy() compares at most the first n bytes of str1 and str2.
+// strncmp() compares at most the first n bytes of str1 and str2.
 //	 (an unsigned char) in the string pointed to by the argument str.
 // Returns an integer (representing the difference of s1 - s2).
-// strncpy() = defined in string.h
+// Parameters:
+// str1 - This is the first string to be compared.
+// str2 - This is the second string to be compared.
+// n    − The maximum number of characters to be compared.
+// strncmp() = defined in string.h
 #include "libft.h"
 
 int	ft_strncmp(const char *s1, const char *s2, unsigned int n)
@@ -45,9 +49,6 @@ int	ft_strncmp(const char *s1, const char *s2, unsigned int n)
 // 	printf("String1 - String2 = %d\n", ft_strncmp(string1, string2, 2));
 // 	return (0);
 // }
-// Parameters
-// str1 - This is the first string to be compared.
-// str2 - This is the second string to be compared.
 // n	 - The maximum number of characters to be compared.
 //
 // Return Value
