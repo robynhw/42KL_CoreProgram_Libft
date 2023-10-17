@@ -13,9 +13,9 @@
 // memchr() searches for the first occurrence of the character c (an
 //	 unsigned char) in the first n bytes of the string pointed to,
 //	 by the argument str.
-// Returns: -  pointer to the matching byte; or
-//			-  NULL (if the character does not occur in the given memory area)
-//
+// Returns:
+// -  pointer to the matching byte; or
+// -  NULL (if the character does not occur in the given memory area)
 // Parameters:
 // str - This is the pointer to the block of memory where the search is
 //		 performed.
